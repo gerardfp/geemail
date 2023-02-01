@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    implementation group: 'org.apache.commons', name: 'commons-email', version: '1.5'
+    api group: 'org.apache.commons', name: 'commons-email', version: '1.5'
 }
 
 publishing {
